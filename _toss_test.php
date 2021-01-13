@@ -1,6 +1,6 @@
 <?php
-if (empty($_SESSION['_toss_pay_total_test'])) {
-  $_SESSION['_toss_pay_total_test'] = 0;
+if (empty($_COOKIE['_toss_pay_total_test'])) {
+  $_COOKIE['_toss_pay_total_test'] = 0;
 }
 ?>
 
@@ -35,7 +35,7 @@ if (empty($_SESSION['_toss_pay_total_test'])) {
   <input type="number" placeholder="결제할 금액" id="amount">
   <button onclick="tossTest()">토스 결제하기</button>
   <p>
-    총 결제 금액: <?= $_SESSION['_toss_pay_total_test'] ?>
+    총 결제 금액: <?= $_COOKIE['_toss_pay_total_test'] ?>
   </p>
 </body>
 </html>
