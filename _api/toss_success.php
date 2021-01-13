@@ -25,6 +25,7 @@ $_SESSION['_toss_pay_total_test'] += $totalAmount;
       Code: <?= $responseCode ?> <br />
       Message: <?= $responseMessage ?> <br />
       Total amount: <?= $totalAmount ?> <br />
+      총 결제 금액: <?= $_SESSION['_toss_pay_total_test'] ?>
     </p>
 
     <p>
