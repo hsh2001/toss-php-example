@@ -12,7 +12,7 @@ if (empty($_SESSION['_toss_pay_total_test'])) {
   <title>Toss test</title>
   <script src="https://js.tosspayments.com/v1"></script>
   <script>
-    const clientKey = 'test_ck_XjExPeJWYVQ1XP6J5wPV49R5gvNL';
+    const clientKey = 'test_ck_XjExPeJWYVQ1XdPmEPxV49R5gvNL';
     const tossPayments = TossPayments(clientKey);
 
     function tossTest() {
